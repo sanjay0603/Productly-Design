@@ -1,0 +1,264 @@
+body {
+  font-family: bodyfont;
+  color: #2f281e;
+}
+/*--------------------------------------------------------------
+# Headings
+--------------------------------------------------------------*/
+h1 {
+  font-family: blackheading;
+  font-weight: bold;
+  font-size: 49px;
+}
+h2 {
+  font-size: 40px;
+  font-family: blackheading;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4,
+h5,
+h3 {
+  font-family: blackheading;
+}
+/*--------------------------------------------------------------
+# Font-Face
+--------------------------------------------------------------*/
+@font-face {
+  font-family: headingsfont;
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: bodyfont;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: blackheading;
+  src: url("../fonts/Poppins-Black.ttf");
+}
+/*--------------------------------------------------------------
+  # Header
+  --------------------------------------------------------------*/
+.navbar{
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+.collapse .navbar-nav .nav-item .nav-link {
+  color: #2f281e;
+  font-size: 15px;
+  margin-right: 22px;
+  font-weight: 500;
+}
+.collapse .navbar-nav .nav-item .btn {
+  margin-right: 25px;
+  color: #2f281e;
+  padding: 9px 18px;
+  border: 1px solid #2f281e;
+  border-radius: 0;
+}
+.collapse .navbar-nav .nav-item .btn2 {
+  color: white;
+  border: 1p solid white;
+  background-color: #ff9900;
+  padding: 9px 18px;
+  border: transparent;
+  
+}
+.sanjay {
+  animation: bounce 1.1s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate3d(0px, 0px, 0);
+  }
+  50% {
+    transform: translate3d(0px, -4px, 0);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0);
+  }
+}
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+.banner {
+  padding: 165px 0px;
+}
+.bannerpara {
+  font-size: 18px;
+}
+.btnget {
+  font-size: 20px;
+  padding: 13px 36px;
+  background: #ff9900;
+  color: white;
+  font-family: bodyfont;
+  border: transparent;
+  font-weight: 400;
+}
+.btnget:hover {
+  background-color: #d98200;
+}
+.textpara {
+  text-decoration: underline;
+  color: #ff9900;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+# toolSection
+--------------------------------------------------------------*/
+
+.toolsectio {
+  background-image: url("../images/ef_02.png");
+  height: 830px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn-large {
+  padding: 20px 56px;
+  background: #ff9900;
+  background-color: rgb(255, 153, 0);
+  color: white;
+  border: transparent;
+  font-size: 22px;
+  font-weight: 700;
+  font-weight: 900;
+  font-family: "blackheading";
+}
+.largebuttonsection {
+  margin-top: 204px;
+}
+.Managersection {
+  padding-top: 30px;
+}
+/*--------------------------------------------------------------
+# Professionalsection
+--------------------------------------------------------------*/
+
+strong:hover {
+  color: #ff9900;
+  cursor: pointer;
+}
+
+strong {
+  padding: 0px 2px;
+}
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  margin-top: 160px;
+  padding-bottom: 34px;
+}
+
+.footerlist {
+  list-style-type: none;
+  padding-left: 0;
+}
+strong {
+  font-family: blackheading;
+  font-size: 15px;
+  font-weight: 500;
+}
+/*--------------------------------------------------------------
+# Media-Query
+--------------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p.bannerpara {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h4.heading4 {
+    font-size: 16px !important;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  strong {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px !important;
+  }
+  .btnget {
+    font-size: 12px;
+    padding: 12px 27px;
+  }
+
+  .Managersection {
+    padding-top: 6px;
+  }
+  .banner {
+    padding: 88px 0px 0px 0px;
+  }
+  .toolsectio.p {
+    font-size: 12px;
+  }
+  footer {
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+  footer .footerlist li {
+    font-size: 12px;
+  }
+  .footerlist .heading4 {
+    font-size: 10px;
+  }
+  .largebuttonsection {
+    margin-top: 10px;
+  }
+  .btn-large {
+    padding: 16px 30px;
+
+    font-size: 19px;
+    font-weight: 200 !important;
+  }
+  .btnget.btnfooter {
+    color: white;
+    padding: 6px 12px;
+  }
+  .footer.heading4 {
+    font-size: 10px;
+  }
+  .btn2 {
+    margin-top: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .toolsectio {
+    background-image: none;
+    height: 100%;
+  }
+}
